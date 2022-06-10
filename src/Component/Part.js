@@ -13,7 +13,7 @@ const Part=()=>{
    <div className="part">
     {item.map((value, id) => {
     return (
-      <div className="card" id="ss" key={id} onClick={() => store(value)}>
+      <div className="card" id={id} key={id} onClick={() => store(id,value)}>
         <img src={value.img} alt="Avatar" style={{ width: "100%" }} />
         <div className="container">
           {/* <h4><b>{}</b></h4>  */}

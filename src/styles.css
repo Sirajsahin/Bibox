@@ -123,3 +123,28 @@ body {
   color: white;
   gap: 1rem;
 }
+
+.rightView {
+  margin: 4rem;
+  /* width: 42rem; */
+  /* height: 35rem; */
+  /* border: 1px solid black; */
+  /* background: #dddddd; */
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productImg {
+  height: 17rem;
+  width: 32rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: auto;
+}
+.productImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
