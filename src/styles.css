@@ -1,0 +1,125 @@
+body {
+  background: #e6ede6;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+.img-box {
+  width: 40rem;
+  height: auto;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background: #f91010;
+  opacity: 0.88;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #81a2c3;
+  color: #ede8e8;
+  font-size: 22px;
+  padding: 14px 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 16rem;
+  background: #7bc9db;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: rgb(228, 144, 49);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.container p {
+  overflow: hidden;
+}
+.part {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1.5rem;
+  margin: 1.5rem;
+}
+.partss {
+  overflow-x: scroll;
+}
+
+.part2 {
+  /* overflow-y: scroll; */
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1.5rem;
+  margin: 4rem;
+  /* width: 23rem; */
+}
+.subpart {
+  width: 30rem;
+  height: 40rem;
+  overflow-y: scroll;
+  border: none;
+}
+.btn-show {
+  padding: 7px;
+  border-radius: 45%;
+  margin: 1rem;
+  padding: 7px;
+  border-radius: 40%;
+  margin: 1rem;
+  background-color: #0fd91e;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-show:hover {
+  background-color: black;
+  color: white;
+}
+.main-sub {
+  display: flex;
+}
+.right {
+  margin: 4rem;
+  width: 42rem;
+  height: 35rem;
+  border: 1px solid black;
+  background: #dddddd;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.card1 {
+  transition: 0.3s;
+  width: 12rem;
+  /* background: #7bc9db; */
+  color: white;
+  gap: 1rem;
+}
